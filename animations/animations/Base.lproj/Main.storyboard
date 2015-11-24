@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R4e-bg-bNa">
+                                <rect key="frame" x="100" y="28" width="121" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="g2u-FT-p2e"/>
+                                    <constraint firstAttribute="width" constant="121" id="zqK-rP-i9p"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Amz-HC-IaW">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Stop" id="JSh-Xu-OzI">
+                                        <connections>
+                                            <action selector="reset:" destination="BYZ-38-t0r" id="wUx-zg-JoB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Amz-HC-IaW" secondAttribute="trailing" constant="-20" id="3hN-Xj-OGx"/>
+                            <constraint firstItem="R4e-bg-bNa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EGI-zV-aSf"/>
+                            <constraint firstItem="Amz-HC-IaW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="QvM-ZM-zPo"/>
+                            <constraint firstItem="R4e-bg-bNa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="VE0-xI-kTl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Amz-HC-IaW" secondAttribute="bottom" id="cR8-6D-BuG"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="alienImage" destination="R4e-bg-bNa" id="PWs-4U-XXd"/>
+                        <outlet property="startStop" destination="JSh-Xu-OzI" id="tJj-xt-m7V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frame1.jpg" width="49" height="86"/>
+    </resources>
+</document>

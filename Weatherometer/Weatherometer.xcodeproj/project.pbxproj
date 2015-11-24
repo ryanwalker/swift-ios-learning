@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5CF71F9E4A901656F8AA64 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FACF230049B18C01800778 /* Pods.framework */; };
+		F531287B1BEA7B02006FA80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F531287A1BEA7B02006FA80F /* AppDelegate.swift */; };
+		F531287D1BEA7B02006FA80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F531287C1BEA7B02006FA80F /* ViewController.swift */; };
+		F53128801BEA7B02006FA80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F531287E1BEA7B02006FA80F /* Main.storyboard */; };
+		F53128821BEA7B02006FA80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53128811BEA7B02006FA80F /* Assets.xcassets */; };
+		F53128851BEA7B02006FA80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53128831BEA7B02006FA80F /* LaunchScreen.storyboard */; };
+		F53128901BEA7B02006FA80F /* WeatherometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F531288F1BEA7B02006FA80F /* WeatherometerTests.swift */; };
+		F531289B1BEA7B02006FA80F /* WeatherometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F531289A1BEA7B02006FA80F /* WeatherometerUITests.swift */; };
+		F53128A91BEA7B11006FA80F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53128A81BEA7B11006FA80F /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F531288C1BEA7B02006FA80F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F531286F1BEA7B02006FA80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53128761BEA7B02006FA80F;
+			remoteInfo = Weatherometer;
+		};
+		F53128971BEA7B02006FA80F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F531286F1BEA7B02006FA80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53128761BEA7B02006FA80F;
+			remoteInfo = Weatherometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265C321C1C2C17935517F19C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8D707D6DE8B898B25933D18D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FACF230049B18C01800778 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53128771BEA7B02006FA80F /* Weatherometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F531287A1BEA7B02006FA80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F531287C1BEA7B02006FA80F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F531287F1BEA7B02006FA80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53128811BEA7B02006FA80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F53128841BEA7B02006FA80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F53128861BEA7B02006FA80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F531288B1BEA7B02006FA80F /* WeatherometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F531288F1BEA7B02006FA80F /* WeatherometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherometerTests.swift; sourceTree = "<group>"; };
+		F53128911BEA7B02006FA80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53128961BEA7B02006FA80F /* WeatherometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F531289A1BEA7B02006FA80F /* WeatherometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherometerUITests.swift; sourceTree = "<group>"; };
+		F531289C1BEA7B02006FA80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53128A81BEA7B11006FA80F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F53128741BEA7B02006FA80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53128A91BEA7B11006FA80F /* CoreLocation.framework in Frameworks */,
+				7E5CF71F9E4A901656F8AA64 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53128881BEA7B02006FA80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53128931BEA7B02006FA80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88425B565CE643B8C74E6BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FACF230049B18C01800778 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE73E8C466A05C79948D9CC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D707D6DE8B898B25933D18D /* Pods.debug.xcconfig */,
+				265C321C1C2C17935517F19C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F531286E1BEA7B02006FA80F = {
+			isa = PBXGroup;
+			children = (
+				F53128A81BEA7B11006FA80F /* CoreLocation.framework */,
+				F53128791BEA7B02006FA80F /* Weatherometer */,
+				F531288E1BEA7B02006FA80F /* WeatherometerTests */,
+				F53128991BEA7B02006FA80F /* WeatherometerUITests */,
+				F53128781BEA7B02006FA80F /* Products */,
+				BE73E8C466A05C79948D9CC0 /* Pods */,
+				88425B565CE643B8C74E6BB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F53128781BEA7B02006FA80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53128771BEA7B02006FA80F /* Weatherometer.app */,
+				F531288B1BEA7B02006FA80F /* WeatherometerTests.xctest */,
+				F53128961BEA7B02006FA80F /* WeatherometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53128791BEA7B02006FA80F /* Weatherometer */ = {
+			isa = PBXGroup;
+			children = (
+				F531287A1BEA7B02006FA80F /* AppDelegate.swift */,
+				F531287C1BEA7B02006FA80F /* ViewController.swift */,
+				F531287E1BEA7B02006FA80F /* Main.storyboard */,
+				F53128811BEA7B02006FA80F /* Assets.xcassets */,
+				F53128831BEA7B02006FA80F /* LaunchScreen.storyboard */,
+				F53128861BEA7B02006FA80F /* Info.plist */,
+			);
+			path = Weatherometer;
+			sourceTree = "<group>";
+		};
+		F531288E1BEA7B02006FA80F /* WeatherometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F531288F1BEA7B02006FA80F /* WeatherometerTests.swift */,
+				F53128911BEA7B02006FA80F /* Info.plist */,
+			);
+			path = WeatherometerTests;
+			sourceTree = "<group>";
+		};
+		F53128991BEA7B02006FA80F /* WeatherometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F531289A1BEA7B02006FA80F /* WeatherometerUITests.swift */,
+				F531289C1BEA7B02006FA80F /* Info.plist */,
+			);
+			path = WeatherometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53128761BEA7B02006FA80F /* Weatherometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F531289F1BEA7B02006FA80F /* Build configuration list for PBXNativeTarget "Weatherometer" */;
+			buildPhases = (
+				D276ED805855ECDFBD8A922F /* Check Pods Manifest.lock */,
+				F53128731BEA7B02006FA80F /* Sources */,
+				F53128741BEA7B02006FA80F /* Frameworks */,
+				F53128751BEA7B02006FA80F /* Resources */,
+				0246461ED2E8D26584CE7D17 /* Embed Pods Frameworks */,
+				FD326A73B534D2081DDCF4ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weatherometer;
+			productName = Weatherometer;
+			productReference = F53128771BEA7B02006FA80F /* Weatherometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F531288A1BEA7B02006FA80F /* WeatherometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53128A21BEA7B02006FA80F /* Build configuration list for PBXNativeTarget "WeatherometerTests" */;
+			buildPhases = (
+				F53128871BEA7B02006FA80F /* Sources */,
+				F53128881BEA7B02006FA80F /* Frameworks */,
+				F53128891BEA7B02006FA80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F531288D1BEA7B02006FA80F /* PBXTargetDependency */,
+			);
+			name = WeatherometerTests;
+			productName = WeatherometerTests;
+			productReference = F531288B1BEA7B02006FA80F /* WeatherometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F53128951BEA7B02006FA80F /* WeatherometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53128A51BEA7B02006FA80F /* Build configuration list for PBXNativeTarget "WeatherometerUITests" */;
+			buildPhases = (
+				F53128921BEA7B02006FA80F /* Sources */,
+				F53128931BEA7B02006FA80F /* Frameworks */,
+				F53128941BEA7B02006FA80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53128981BEA7B02006FA80F /* PBXTargetDependency */,
+			);
+			name = WeatherometerUITests;
+			productName = WeatherometerUITests;
+			productReference = F53128961BEA7B02006FA80F /* WeatherometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F531286F1BEA7B02006FA80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ryan Walker";
+				TargetAttributes = {
+					F53128761BEA7B02006FA80F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F531288A1BEA7B02006FA80F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F53128761BEA7B02006FA80F;
+					};
+					F53128951BEA7B02006FA80F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F53128761BEA7B02006FA80F;
+					};
+				};
+			};
+			buildConfigurationList = F53128721BEA7B02006FA80F /* Build configuration list for PBXProject "Weatherometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F531286E1BEA7B02006FA80F;
+			productRefGroup = F53128781BEA7B02006FA80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53128761BEA7B02006FA80F /* Weatherometer */,
+				F531288A1BEA7B02006FA80F /* WeatherometerTests */,
+				F53128951BEA7B02006FA80F /* WeatherometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F53128751BEA7B02006FA80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53128851BEA7B02006FA80F /* LaunchScreen.storyboard in Resources */,
+				F53128821BEA7B02006FA80F /* Assets.xcassets in Resources */,
+				F53128801BEA7B02006FA80F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53128891BEA7B02006FA80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53128941BEA7B02006FA80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0246461ED2E8D26584CE7D17 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D276ED805855ECDFBD8A922F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD326A73B534D2081DDCF4ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53128731BEA7B02006FA80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F531287D1BEA7B02006FA80F /* ViewController.swift in Sources */,
+				F531287B1BEA7B02006FA80F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53128871BEA7B02006FA80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53128901BEA7B02006FA80F /* WeatherometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53128921BEA7B02006FA80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F531289B1BEA7B02006FA80F /* WeatherometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F531288D1BEA7B02006FA80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53128761BEA7B02006FA80F /* Weatherometer */;
+			targetProxy = F531288C1BEA7B02006FA80F /* PBXContainerItemProxy */;
+		};
+		F53128981BEA7B02006FA80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53128761BEA7B02006FA80F /* Weatherometer */;
+			targetProxy = F53128971BEA7B02006FA80F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F531287E1BEA7B02006FA80F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F531287F1BEA7B02006FA80F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F53128831BEA7B02006FA80F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53128841BEA7B02006FA80F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F531289D1BEA7B02006FA80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F531289E1BEA7B02006FA80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53128A01BEA7B02006FA80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D707D6DE8B898B25933D18D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weatherometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker.Weatherometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F53128A11BEA7B02006FA80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265C321C1C2C17935517F19C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weatherometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker.Weatherometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F53128A31BEA7B02006FA80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeatherometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker.WeatherometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weatherometer.app/Weatherometer";
+			};
+			name = Debug;
+		};
+		F53128A41BEA7B02006FA80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeatherometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker.WeatherometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weatherometer.app/Weatherometer";
+			};
+			name = Release;
+		};
+		F53128A61BEA7B02006FA80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeatherometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker.WeatherometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weatherometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F53128A71BEA7B02006FA80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeatherometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker.WeatherometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weatherometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F53128721BEA7B02006FA80F /* Build configuration list for PBXProject "Weatherometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F531289D1BEA7B02006FA80F /* Debug */,
+				F531289E1BEA7B02006FA80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F531289F1BEA7B02006FA80F /* Build configuration list for PBXNativeTarget "Weatherometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53128A01BEA7B02006FA80F /* Debug */,
+				F53128A11BEA7B02006FA80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53128A21BEA7B02006FA80F /* Build configuration list for PBXNativeTarget "WeatherometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53128A31BEA7B02006FA80F /* Debug */,
+				F53128A41BEA7B02006FA80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53128A51BEA7B02006FA80F /* Build configuration list for PBXNativeTarget "WeatherometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53128A61BEA7B02006FA80F /* Debug */,
+				F53128A71BEA7B02006FA80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F531286F1BEA7B02006FA80F /* Project object */;
+}

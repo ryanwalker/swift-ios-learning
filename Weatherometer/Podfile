@@ -1,0 +1,4 @@
+use_frameworks!
+
+pod 'ObjectMapper', '~> 1.0'
+
