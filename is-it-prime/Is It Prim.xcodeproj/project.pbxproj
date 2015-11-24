@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F59550031B8E47DD0039DB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550021B8E47DD0039DB88 /* AppDelegate.swift */; };
+		F59550051B8E47DD0039DB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550041B8E47DD0039DB88 /* ViewController.swift */; };
+		F59550081B8E47DD0039DB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59550061B8E47DD0039DB88 /* Main.storyboard */; };
+		F595500A1B8E47DD0039DB88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59550091B8E47DD0039DB88 /* Images.xcassets */; };
+		F595500D1B8E47DD0039DB88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F595500B1B8E47DD0039DB88 /* LaunchScreen.xib */; };
+		F59550191B8E47DD0039DB88 /* Is_It_PrimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550181B8E47DD0039DB88 /* Is_It_PrimTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F59550131B8E47DD0039DB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5954FF51B8E47DD0039DB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5954FFC1B8E47DD0039DB88;
+			remoteInfo = "Is It Prim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5954FFD1B8E47DD0039DB88 /* Is It Prim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is It Prim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59550011B8E47DD0039DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59550021B8E47DD0039DB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59550041B8E47DD0039DB88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F59550071B8E47DD0039DB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59550091B8E47DD0039DB88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F595500C1B8E47DD0039DB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F59550121B8E47DD0039DB88 /* Is It PrimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Is It PrimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59550171B8E47DD0039DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59550181B8E47DD0039DB88 /* Is_It_PrimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_It_PrimTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5954FFA1B8E47DD0039DB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595500F1B8E47DD0039DB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5954FF41B8E47DD0039DB88 = {
+			isa = PBXGroup;
+			children = (
+				F5954FFF1B8E47DD0039DB88 /* Is It Prim */,
+				F59550151B8E47DD0039DB88 /* Is It PrimTests */,
+				F5954FFE1B8E47DD0039DB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5954FFE1B8E47DD0039DB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5954FFD1B8E47DD0039DB88 /* Is It Prim.app */,
+				F59550121B8E47DD0039DB88 /* Is It PrimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5954FFF1B8E47DD0039DB88 /* Is It Prim */ = {
+			isa = PBXGroup;
+			children = (
+				F59550021B8E47DD0039DB88 /* AppDelegate.swift */,
+				F59550041B8E47DD0039DB88 /* ViewController.swift */,
+				F59550061B8E47DD0039DB88 /* Main.storyboard */,
+				F59550091B8E47DD0039DB88 /* Images.xcassets */,
+				F595500B1B8E47DD0039DB88 /* LaunchScreen.xib */,
+				F59550001B8E47DD0039DB88 /* Supporting Files */,
+			);
+			path = "Is It Prim";
+			sourceTree = "<group>";
+		};
+		F59550001B8E47DD0039DB88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59550011B8E47DD0039DB88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F59550151B8E47DD0039DB88 /* Is It PrimTests */ = {
+			isa = PBXGroup;
+			children = (
+				F59550181B8E47DD0039DB88 /* Is_It_PrimTests.swift */,
+				F59550161B8E47DD0039DB88 /* Supporting Files */,
+			);
+			path = "Is It PrimTests";
+			sourceTree = "<group>";
+		};
+		F59550161B8E47DD0039DB88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59550171B8E47DD0039DB88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5954FFC1B8E47DD0039DB88 /* Is It Prim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595501C1B8E47DD0039DB88 /* Build configuration list for PBXNativeTarget "Is It Prim" */;
+			buildPhases = (
+				F5954FF91B8E47DD0039DB88 /* Sources */,
+				F5954FFA1B8E47DD0039DB88 /* Frameworks */,
+				F5954FFB1B8E47DD0039DB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Is It Prim";
+			productName = "Is It Prim";
+			productReference = F5954FFD1B8E47DD0039DB88 /* Is It Prim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59550111B8E47DD0039DB88 /* Is It PrimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595501F1B8E47DD0039DB88 /* Build configuration list for PBXNativeTarget "Is It PrimTests" */;
+			buildPhases = (
+				F595500E1B8E47DD0039DB88 /* Sources */,
+				F595500F1B8E47DD0039DB88 /* Frameworks */,
+				F59550101B8E47DD0039DB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59550141B8E47DD0039DB88 /* PBXTargetDependency */,
+			);
+			name = "Is It PrimTests";
+			productName = "Is It PrimTests";
+			productReference = F59550121B8E47DD0039DB88 /* Is It PrimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5954FF51B8E47DD0039DB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ryan Walker";
+				TargetAttributes = {
+					F5954FFC1B8E47DD0039DB88 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F59550111B8E47DD0039DB88 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F5954FFC1B8E47DD0039DB88;
+					};
+				};
+			};
+			buildConfigurationList = F5954FF81B8E47DD0039DB88 /* Build configuration list for PBXProject "Is It Prim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5954FF41B8E47DD0039DB88;
+			productRefGroup = F5954FFE1B8E47DD0039DB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5954FFC1B8E47DD0039DB88 /* Is It Prim */,
+				F59550111B8E47DD0039DB88 /* Is It PrimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5954FFB1B8E47DD0039DB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59550081B8E47DD0039DB88 /* Main.storyboard in Resources */,
+				F595500D1B8E47DD0039DB88 /* LaunchScreen.xib in Resources */,
+				F595500A1B8E47DD0039DB88 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59550101B8E47DD0039DB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5954FF91B8E47DD0039DB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59550051B8E47DD0039DB88 /* ViewController.swift in Sources */,
+				F59550031B8E47DD0039DB88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595500E1B8E47DD0039DB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59550191B8E47DD0039DB88 /* Is_It_PrimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59550141B8E47DD0039DB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5954FFC1B8E47DD0039DB88 /* Is It Prim */;
+			targetProxy = F59550131B8E47DD0039DB88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59550061B8E47DD0039DB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59550071B8E47DD0039DB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F595500B1B8E47DD0039DB88 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F595500C1B8E47DD0039DB88 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F595501A1B8E47DD0039DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F595501B1B8E47DD0039DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F595501D1B8E47DD0039DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Is It Prim/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F595501E1B8E47DD0039DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Is It Prim/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F59550201B8E47DD0039DB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Is It PrimTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is It Prim.app/Is It Prim";
+			};
+			name = Debug;
+		};
+		F59550211B8E47DD0039DB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Is It PrimTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is It Prim.app/Is It Prim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5954FF81B8E47DD0039DB88 /* Build configuration list for PBXProject "Is It Prim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595501A1B8E47DD0039DB88 /* Debug */,
+				F595501B1B8E47DD0039DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F595501C1B8E47DD0039DB88 /* Build configuration list for PBXNativeTarget "Is It Prim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595501D1B8E47DD0039DB88 /* Debug */,
+				F595501E1B8E47DD0039DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F595501F1B8E47DD0039DB88 /* Build configuration list for PBXNativeTarget "Is It PrimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59550201B8E47DD0039DB88 /* Debug */,
+				F59550211B8E47DD0039DB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5954FF51B8E47DD0039DB88 /* Project object */;
+}
